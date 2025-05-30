@@ -13,6 +13,6 @@ module "database" {
   source             = "./modules/database"
   subnet_ids         = module.networking.public_subnet_ids
   db_username        = "adminuser"
-  db_password        = "ComplexPass123!"
+  db_password        = "XENOX@12567!"
   db_subnet_group_name ="3tier-db-subnetgroup-001"  
 }
